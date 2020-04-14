@@ -1,10 +1,11 @@
 # liferay-dxp-workspace
 
 # To deploy module automatically in liferay tomcat server
-- modify gradle-local.properties
+modify gradle-local.properties
+
 liferay.workspace.home.dir=<provide-liferay-tomcat-server-path>
 
-# Module avaiable
+# Module available
 sample-web - Please configure this portlet to make it visible to all users.
 
 To know more about how to create this portlet, refer this link
