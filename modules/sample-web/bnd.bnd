@@ -1,0 +1,4 @@
+Bundle-Name: sample-web
+Bundle-SymbolicName: com.cmpy.project.module.action
+Bundle-Version: 1.0.0
+Export-Package: com.cmpy.project.module.action.constants
