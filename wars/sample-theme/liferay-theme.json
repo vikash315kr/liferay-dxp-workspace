@@ -1,0 +1,11 @@
+{
+  "LiferayTheme": {
+    "deploymentStrategy": "LocalAppServer",
+    "appServerPath": "C:\\Project\\liferay 7.2\\liferay-ce-portal-7.2.1-ga2\\tomcat-9.0.17",
+    "deployPath": "C:\\Project\\liferay 7.2\\liferay-ce-portal-7.2.1-ga2\\deploy",
+    "url": "http://localhost:7070",
+    "appServerPathPlugin": "C:\\Project\\liferay 7.2\\liferay-ce-portal-7.2.1-ga2\\tomcat-9.0.17\\webapps\\sample-theme",
+    "deployed": true,
+    "pluginName": "sample-theme"
+  }
+}
