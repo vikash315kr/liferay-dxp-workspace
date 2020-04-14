@@ -6,7 +6,7 @@
 liferay.workspace.home.dir=C:\\Project\\LTI\\liferay-ce-portal-7.0-ga6
 
 # Module available
-sample-web - Please configure this portlet to make it visible to all users.
+- sample-web - Please configure this portlet to make it visible to all users.
 
 To know more about how to create this portlet, refer this link
 
