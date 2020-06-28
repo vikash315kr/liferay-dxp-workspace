@@ -4,7 +4,12 @@ import com.cmpy.project.module.action.constants.ModuleWebActionPortletKeys;
 
 import com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet;
 
+import java.io.IOException;
+
 import javax.portlet.Portlet;
+import javax.portlet.PortletException;
+import javax.portlet.RenderRequest;
+import javax.portlet.RenderResponse;
 
 import org.osgi.service.component.annotations.Component;
 
@@ -27,4 +32,11 @@ import org.osgi.service.component.annotations.Component;
 	service = Portlet.class
 )
 public class ModuleWebActionPortlet extends MVCPortlet {
+	@Override
+	public void render(RenderRequest renderRequest, RenderResponse renderResponse)
+			throws IOException, PortletException {
+
+		System.out.println("ModuleWebActionPortlet.render()");
+		super.render(renderRequest, renderResponse);
+	}
 }
