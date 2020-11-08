@@ -1,0 +1,4 @@
+Bundle-Name: read-portlet-properties-web
+Bundle-SymbolicName: com.cmpy.read.properties.web.action
+Bundle-Version: 1.0.0
+Export-Package: com.cmpy.read.properties.web.action.constants
