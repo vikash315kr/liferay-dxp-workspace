@@ -3,7 +3,7 @@
 # To deploy module automatically in liferay tomcat server
 - modify gradle-local.properties
 
-liferay.workspace.home.dir=C:\\Project\\LTI\\liferay-ce-portal-7.0-ga6
+liferay.workspace.home.dir=C:\\Project\\liferay-ce-portal-7.0-ga6
 
 # Module available
 - **sample-web** - Please configure this portlet to make it visible to all users.
